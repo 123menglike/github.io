@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#one{width :1000px;height:30px;backgroound-color:#666}
+#draw{float:left;}
+#d{float:left;font size:20px; background-color:#FFF}
+#c{float:right;font size:20px;}
+#two{ margin-right:auto;text-aligh:cented; width :1000px;height:150px;}
+
+#thinking{padding-left:36px;float:right;font size:80px;}
+#dream{float:right;font size:80px;}
+#dreams{float:right;font size:80px;width:auto;height:auto}
