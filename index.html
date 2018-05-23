@@ -15,30 +15,24 @@
 function login(){
    var name=document.getElementById("name").value;
    var pass=document.getElementById("pass").value;
-   if(name=="520" && pass=="520")
+   if(name=="520" ||name=="颛顼萱蒙")
+	   if(pass=="520")
    {
 	   alert("登入成功");
 	   window.location.href="myselfe.html"
    return false;
    }else{
-	   alert("用户名或密码错误");
-	   window.location.href="我的世界.html";return false;
-   
-     } 
-	function login(){
-   var name=document.getElementById("name").value;
-   var pass=document.getElementById("pass").value;
-	if(name=="朋友"&&pass=="3938") 
-     {
-	     alert("登入成功");
+	   if(pass=="3938")
+	   {  alert("登入成功");
 	     window.location.href="朋友的页面.html"
 	     return false;}
-	else{
-		alert("用户或密码错误");
+	   else{alert("用户或密码错误");
 		 window.location.href="我的世界.html"
 		return false;}
-   }
-   }
+	  
+   
+     } 
+
  
 	</script>
 	<div id="login">
