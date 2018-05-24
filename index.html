@@ -11,23 +11,7 @@
 <div><h1>欢迎来到我的个人世界----在这里你可以得到新的体验</h1></div>
 
 <body>
-<script>	
-function login(){
- 
-   function login(){
-   var name=document.getElementById("name").value;
-   var pass=document.getElementById("pass").value;
-   if(name=="520" && pass=="520"){
-	   alert("登入成功");
-	   window.location.href="myselfe.html"
-   return false;
-   }else{
-	   alert("用户名或密码错误");
-	   window.location.href="reg.html";
-   return false;
-     }   
-   }
-    </script>
+
 	<script>
 		
    function login(){
@@ -49,7 +33,7 @@ function login(){
     <p 	class="oneTitle">网站用户登录界面</p>
     <p class="grayFont">欢迎登录</p>
     <form name="f" action="myselfe.html">
-	    <form name="f" action="朋友的页面index.html">
+	 
     <p><input type="text" class="textBox" placeholder="请输入用户名" id="name"/></p>
     <p><input type="password" class="textBox" placeholder="请输密码"id="pass"/></p>
     <p><input type="submit" value="提交登录"  class="submitButton" onclick="return login();"/></p>
